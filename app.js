@@ -1,3 +1,4 @@
+//pkg -t win package.json 打包命令
 const express = require('express');
 const app = express();
 const router = require('./router/index');

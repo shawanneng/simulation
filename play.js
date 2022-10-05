@@ -9,7 +9,7 @@ async function getSign() {
   const sign = await page.locator('body').textContent();
   // 关闭浏览器
   await browser.close();
-  console.log('sign:', sign);
+  console.log('sign生成成功');
   return sign;
 }
 

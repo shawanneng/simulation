@@ -22,5 +22,8 @@
     "assets": [
       "static/**/*"
     ]
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
   }
 }
